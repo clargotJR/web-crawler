@@ -1,5 +1,9 @@
 const { JSDOM } = require('jsdom')
 
+function crawlPage(){
+  
+}
+
 function getURLsFromHTML(htmlBody, baseURL){
   const urls = []
   const dom = new JSDOM(htmlBody)
